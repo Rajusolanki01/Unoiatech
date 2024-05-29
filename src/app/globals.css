@@ -17,14 +17,10 @@ html {
 
 
 .footer {
-  background-image: url("/public/assets/Pattern.png");
+  background-image: url("/assets/Pattern.png");
   background-size: cover;
 }
 
-.transition-max-height {
-  transition: max-height 0.5s ease-in-out;
-  overflow: hidden;
-}
 
 @media screen and (max-width: 640px) {
   .footer {
@@ -32,7 +28,7 @@ html {
   }
 
   .footer {
-    background-image: url("/public/assets/Footer\ Line\ Image.svg");
+    background-image: url("/assets/FooterLineImage.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }

@@ -42,7 +42,7 @@ export default function Career({}: Props) {
             layout="responsive"
             width={200}
             height={200}
-            loading="lazy"
+            priority
           />
         </div>
 

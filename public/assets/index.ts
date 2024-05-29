@@ -36,7 +36,7 @@ import LeftArrow from "./left-arrow.png";
 import Pattern from "./Pattern.png";
 import footerLogo2 from "./Olvera-Capital-300x49 1.svg";
 import footerLogo1 from "./Olvera-First-Logo-BGY-1 2.svg";
-import FooterLayer from "./Footer Line Image.svg";
+import FooterLayer from "./FooterLineImage.svg";
 import footerMobile1 from "./footerMobile1.svg";
 import footerMobile2 from "./footerMobile2.svg";
 import footerMobile3 from "./footerMobile3.svg";

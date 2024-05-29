@@ -17,7 +17,7 @@ type Props = {};
 
 export default function Footer({}: Props) {
   return (
-    <footer className="bg-customDark md:bg-black py-5">
+    <footer className="bg-customDark md:bg-black py-5 footer">
       <section className="max-w-6xl mx-auto">
         {/* FOR LARGE SCREEN */}
         <div className="flex flex-col items-center gap-8 mt-12 md:gap-10 md:mt-36 p-4">
@@ -101,10 +101,10 @@ export default function Footer({}: Props) {
       <section className="max-w-6xl mx-auto">
         <div className="block md:hidden mt-12 mb-24 p-4">
           <div className="flex flex-wrap justify-between gap-7 w-[89%] m-auto mr-1.8">
-            <Image src={footerMobile1} alt="Logo" />
-            <Image src={footerMobile2} alt="Logo" />
-            <Image src={footerMobile3} alt="Logo" />
-            <Image src={footerMobile4} alt="Logo" />
+            <Image src={footerMobile1} alt="Logo" priority />
+            <Image src={footerMobile2} alt="Logo" priority />
+            <Image src={footerMobile3} alt="Logo" priority />
+            <Image src={footerMobile4} alt="Logo" priority />
           </div>
         </div>
       </section>
