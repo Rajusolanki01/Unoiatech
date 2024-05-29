@@ -85,7 +85,7 @@ export default function Navbar({}: Props) {
               "fixed h-full w-screen z-50 lg:hidden bg-black/50 backdrop-blur-sm duration-500 top-0 left-0 transform",
               sideMenu ? "translate-x-0" : "translate-x-full"
             )}>
-            <section className="text-black bg-white w-1/2 flex flex-col absolute right-0 top-0 p-8 gap-8  h-screen">
+            <section className="text-black bg-white w-4/5 flex flex-col absolute right-0 top-0 p-8 gap-8  h-screen">
               <IoClose
                 onClick={() => setIsSideMenu(false)}
                 className="text-3xl cursor-pointer mt-0 mb-4"

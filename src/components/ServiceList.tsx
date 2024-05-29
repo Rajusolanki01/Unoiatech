@@ -12,8 +12,8 @@ type IServiceListProps = {
 
 export default function ServiceList({ list }: IServiceListProps) {
   return (
-    <div >
-      <ul className="space-y-4">
+    <div>
+      <ul className="space-y-4 mt-12 md:mt-0">
         {list.map((service, index) => (
           <li key={index} className="flex flex-col cursor-pointer p-2">
             <div className="flex flex-col">

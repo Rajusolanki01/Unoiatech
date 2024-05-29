@@ -96,6 +96,8 @@ export default function Footer({}: Props) {
         </div>
       </section>
 
+      {/* FOR SMALLER SCREEN */}
+
       <section className="max-w-6xl mx-auto">
         <div className="block md:hidden mt-12 mb-24 p-4">
           <div className="flex flex-wrap justify-between gap-7 w-[89%] m-auto mr-1.8">
